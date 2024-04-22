@@ -9,7 +9,6 @@ import org.mockito.Mockito;
 import static org.junit.jupiter.api.Assertions.*;
 
 class ProductServiceTest {
-
     @Test
     void getProduct() {
         // Créer un mock ProductApiClient
