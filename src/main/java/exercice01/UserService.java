@@ -1,4 +1,4 @@
-package exo1;
+package exercice01;
 
 public class UserService {
     private  UserRepository userRepository ;

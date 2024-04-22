@@ -1,4 +1,4 @@
-package exo3;
+package exercice03;
 
 public class Product {
     private String productId;

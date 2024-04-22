@@ -1,9 +1,5 @@
 package exercice01;
 
-import exo1.User;
-import exo1.UserRepository;
-import exo1.UserService;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.*;
 

@@ -1,9 +1,5 @@
 package exercice2;
 
-import exo2.Order;
-import exo2.OrderController;
-import exo2.OrderDao;
-import exo2.OrderService;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

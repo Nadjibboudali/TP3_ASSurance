@@ -1,4 +1,4 @@
-package exo2;
+package exercice2;
 
 public class OrderService {
     private OrderDao orderDao;
