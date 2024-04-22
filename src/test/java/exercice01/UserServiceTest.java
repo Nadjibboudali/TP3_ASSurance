@@ -1,5 +1,9 @@
 package exercice01;
 
+import exo1.User;
+import exo1.UserRepository;
+import exo1.UserService;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.*;
 
@@ -12,7 +16,7 @@ class UserServiceTest {
         UserRepository userRepositoryMock = mock(UserRepository.class);
 
         // Créer un utilisateur
-        User user = new User(1, "Ouartsi Fahd");
+        User user = new User(1, "nom prenom");
 
         // Définir le comportement du mock pour la méthode findUserById
         when(userRepositoryMock.findUserById(1)).thenReturn(user);

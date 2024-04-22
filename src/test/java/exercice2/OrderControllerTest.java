@@ -14,12 +14,12 @@ class OrderControllerTest {
     @Test
     void createOrder() {
         // Créer Order
-        Order order = new Order("Ouartsi Fahd");
+        Order order = new Order("nom prenom");
 
         // Créer un mock pour l'interface OrderService
         OrderService orderServiceMock = mock(OrderService.class);
 
-        // Créer une instance de la classe OrderController en lui passant les mocks
+
         OrderController orderController = new OrderController(orderServiceMock);
         // Appeler la méthode createOrder de OrderController
          orderController.createOrder(order);
