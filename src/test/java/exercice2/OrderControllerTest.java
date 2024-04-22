@@ -21,8 +21,6 @@ class OrderControllerTest {
 
         // Créer une instance de la classe OrderController en lui passant les mocks
         OrderController orderController = new OrderController(orderServiceMock);
-
-
         // Appeler la méthode createOrder de OrderController
          orderController.createOrder(order);
 
