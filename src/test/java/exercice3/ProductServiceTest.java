@@ -29,5 +29,6 @@ class ProductServiceTest {
 
         // Vérifier que le produit retourné par ProductService est le même que celui retourné par le mock ProductApiClient
         assertEquals(product, ResultProduct);
+
     }
 }
