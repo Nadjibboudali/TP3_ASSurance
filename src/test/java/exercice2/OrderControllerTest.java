@@ -1,9 +1,9 @@
 package exercice2;
 
-import org.example.exo2.Order;
-import org.example.exo2.OrderController;
-import org.example.exo2.OrderDao;
-import org.example.exo2.OrderService;
+import exo2.Order;
+import exo2.OrderController;
+import exo2.OrderDao;
+import exo2.OrderService;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -18,7 +18,6 @@ class OrderControllerTest {
 
         // Créer un mock pour l'interface OrderService
         OrderService orderServiceMock = mock(OrderService.class);
-
 
         // Créer une instance de la classe OrderController en lui passant les mocks
         OrderController orderController = new OrderController(orderServiceMock);

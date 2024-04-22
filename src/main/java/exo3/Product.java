@@ -1,4 +1,4 @@
-package org.example.exo3;
+package exo3;
 
 public class Product {
     private String productId;

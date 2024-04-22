@@ -1,8 +1,8 @@
 package exercice3;
 
-import org.example.exo3.Product;
-import org.example.exo3.ProductApiClient;
-import org.example.exo3.ProductService;
+import exo3.Product;
+import exo3.ProductApiClient;
+import exo3.ProductService;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 

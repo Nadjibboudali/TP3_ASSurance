@@ -1,4 +1,4 @@
-package exercice01;
+package exo1;
 
 public class User {
     private long id ;

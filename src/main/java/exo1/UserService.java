@@ -1,4 +1,4 @@
-package org.example.exo1;
+package exo1;
 
 public class UserService {
     private  UserRepository userRepository ;

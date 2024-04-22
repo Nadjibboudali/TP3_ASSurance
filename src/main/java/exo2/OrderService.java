@@ -1,4 +1,4 @@
-package exercice2;
+package exo2;
 
 public class OrderService {
     private OrderDao orderDao;
@@ -8,6 +8,6 @@ public class OrderService {
     }
 
     public void createOrder(Order order) {
-        orderDao.saveOrder(order);
+         orderDao.saveOrder(order);
     }
 }

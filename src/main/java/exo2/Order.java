@@ -1,4 +1,4 @@
-package exercice2;
+package exo2;
 
 public class Order {
     private String orderId;

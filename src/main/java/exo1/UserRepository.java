@@ -1,4 +1,4 @@
-package exercice01;
+package exo1;
 
 public interface UserRepository {
     User findUserById(long id) ;

@@ -1,4 +1,4 @@
-package exercice03;
+package exo3;
 
 public interface ProductApiClient {
     Product getProduct(String productId);

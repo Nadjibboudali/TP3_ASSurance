@@ -1,5 +1,4 @@
-package exercice2;
-
+package exo2;
 
 public class OrderController {
     private OrderService orderService;
